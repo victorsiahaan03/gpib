@@ -65,11 +65,11 @@
     <div class="row">
       <div class="col-md-6">
         <h1><a href="#" title="Scroll down for your viewing pleasure">GPIB "Immanuel" Pekanbaru</a>
-          <p class="lead">3-column Theme + Layout for Bootstrap 3.</p></h1>
+          <p class="lead"></p></h1>
       </div>
       <div class="col-md-6">
         <div class="well pull-right">
-          <img src="//placehold.it/280x100/E7E7E7">        
+          <img src="http://placehold.it/280x100/E7E7E7">        
         </div>
       </div>
     </div>
@@ -85,13 +85,13 @@
                 <div class="panel-heading" style="background-color:#888;color:#fff;">Sidebar</div> 
                 <div class="panel-body">
       			<ul class="nav nav-stacked">
-                    <li><a href="#">Link</a></li>
-          			<li><a href="#">Link</a></li>
-                  	<li><a href="#">Link</a></li>
-          			<li><a href="#">Link</a></li>
-                  	<li><a href="#">Link</a></li>
-          			<li><a href="#">Link</a></li>
-				</ul>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
                 <div class="accordion" id="accordion2">
                     <div class="accordion-group">
                             <div class="accordion-heading">
@@ -121,46 +121,57 @@
       		</div><!--/end left column-->
       			
       		<!--mid column-->
-      		<div class="col-md-3">
+            <div class="col-md-3">
+                   
+ 
               <div class="panel" id="midCol">
-                <div class="panel-heading" style="background-color:#555;color:#eee;">New Stories</div> 
+                <div class="panel-heading" style="background-color:#555;color:#eee;">News</div> 
                 <div class="panel-body">
-                  
-                  <img class="img-responsive" src="//placehold.it/300/77CCDD/66BBCC">
-                  
-                  <div class="well">
-                          <img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
-                          <h3><a href="http://getbootstrap.com">Bootstrap 3 is Here.</a></h3>
+                <div class="well">
+                          <h3><a href="#">Visi GPIB</a></h3>
                           <p>
-                          In simple terms, a responsive web design figures out what resolution of
-                          device it's being served on. Flexible grids then size correctly to fit
-                          the screen.
+                          GPIB menjadi gereja yang mewujudkan damai sejahtera Allah bagi seluruh ciptaan-Nya
                           </p>
-                          <p><a href="http://www.bootply.com/bootstrap-3-migration-guide" target="ext">Read our migration guide for help with upgrading to Bootstrap 3.</a></p>
-                  </div>
-                  
+                          <h3><a href="#">Thema</a></h3>
+                          <p>
+                          MEMBANGUN KEMITRAAN ANTAR UMAT DEMI KESELAMATAN BANGSA (Roma 8:28)
+                          </p>
+                          
+                </div>
+                    <h4>Catatan Dari Meja Pendeta</h4>
+                    <a href="#"><img src="http://placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
+                    <div class="text-muted"><small>Aug 15 / Pendeta Ny. Maria Y. Silahooij,S.Th,M.Pd.K</small></div>
+                    <p>
+                        Memaknai Peristiwa Pentakosta
+                    </p>
+                    <hr>
+                    <a href="#"><img src="http://placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
+                    <div class="text-muted"><small>Aug 15 / Pendeta Ny. Maria Y. Silahooij,S.Th,M.Pd.K</small></div>
+                    <p>
+                    Barang Siapa Takut ia tidak sempurna didalam kasih.
+                    </p>
                   <hr>
                   
-                  <h3>Top Members</h3>
+                  <h3>Pimpinan Jemaat</h3>
                   
-                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Chapman</a></h5>
-                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> Max Axleton</a></h5>
-                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> Devin Skelly</a></h5>
-                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> Katie Kowalski</a></h5>
-                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> Amet Deberge</a></h5>
+                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Doe</a></h5>
+                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Doe</a></h5>
+                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Doe</a></h5>
+                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Doe</a></h5>
+                  <h5><a href="#"><i class="glyphicon glyphicon-user"></i> John Doe</a></h5>
                 
                   <hr>  
                   
-                  <img class="img-responsive" src="//placehold.it/300x200/FFF">    
-                  
+                  <img class="img-responsive" src="<?php echo base_url() ;?>public/img/uploads/11350429_987729477927473_8176241686033950252_n.jpg">
+                  <hr> 
+                <h4>Pemberkatan Perkawinan Kudus</h4>  
                   <div class="media">
                     <a class="pull-left" href="#">
                       <img class="media-object" src="http://placehold.it/80/F0F0F0">
                     </a>
                     <div class="media-body">
-                      <h5 class="media-heading"><a href="/tagged/modal" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Modal</strong></a></h5>
-                      <small>Examples using the Bootstrap modal.</small><br>
-                      <span class="badge">87</span>
+                      <h5 class="media-heading"><a href="/tagged/modal" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Rabu, 27 Mei 2015 </strong></a></h5>
+                      <small> John Doe & Jane Doe</small><br>
                     </div>
                   </div>
                   <div class="media">
@@ -168,9 +179,9 @@
                       <img class="media-object" src="http://placehold.it/80/F0F0F0">
                     </a>
                     <div class="media-body">
-                      <h5 class="media-heading"><a href="/tagged/slider" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Carousel</strong></a></h5>
-                      <small>How to use the Bootstrap slider.</small><br>
-                      <span class="badge">322</span>
+                      <h5 class="media-heading"><a href="/tagged/slider" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Kamis, 27 Mei 2015 </strong></a></h5>
+                      <small>John Doe & Jane Doe</small><br>
+                      <span class="badge"></span>
                     </div>
                   </div>
                   <div class="media">
@@ -178,66 +189,78 @@
                       <img class="media-object" src="http://placehold.it/80/F0F0F0">
                     </a>
                     <div class="media-body">
-                      <h5 class="media-heading"><a href="/tagged/typography" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Typography</strong></a></h5>
-                      <small>See the various textual elements and options.</small><br>
-                      <span class="badge">44</span>
+                      <h5 class="media-heading"><a href="/tagged/typography" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>Jumat, 27 Mei 2015 </strong></a></h5>
+                      <small> John Doe & Jane Doe </small><br>
+                      <span class="badge"></span>
                     </div>
                   </div>
-                  <div class="media">
-                    <a class="pull-left" href="#">
-                      <img class="media-object" src="http://placehold.it/80/F0F0F0">
-                    </a>
-                    <div class="media-body">
-                      <h5 class="media-heading"><a href="/tagged/media" target="ext" class="pull-right"><i class="glyphicon glyphicon-share"></i></a> <a href="#"><strong>@Media</strong></a></h5>
-                      <small>Use @media queries to get the layout you want.</small><br>
-                      <span class="badge">119</span>
-                    </div>
-                 </div>
                   
                </div> 
                </div><!--/panel-->
-      		</div><!--/end mid column-->
+            </div><!--/end mid column-->
       		
       		<!-- right content column-->
       		<div class="col-md-7" id="content">
             	<div class="panel">
-    			<div class="panel-heading" style="background-color:#111;color:#fff;">Top Stories</div>   
+    			<div class="panel-heading" style="background-color:#111;color:#fff;">Events</div>   
               	<div class="panel-body">
                   
                   <div class="row">
-                  <div class="col-md-8">
-                    <h2>The Year of Responsive Design.</h2>
-                    2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands, galleries and magical examples that media queries demonstrate the glory of responsive design.
-                    <br><br>
-                    <button class="btn btn-default">More</button>
+                  <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="<?php echo base_url() ;?>public/img/uploads/11351203_872330486166563_8416711384689863634_n.jpg" alt="...">
+                                <div class="carousel-caption">
+                                    <h3>Caption 1</h3>
+                                    <p>Kegiatan Dono Darah</p>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php echo base_url() ;?>public/img/uploads/10152564_604408889649868_8148745631500452626_n.jpg" alt="">
+                                <div class="carousel-caption">
+                                  <h3>Caption 2</h3>
+                                  <p>Kegiatan Paduan Suara</p>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php echo base_url() ;?>public/img/uploads/10553574_786773474722265_8622376106977148630_n.jpg" alt="">
+                                <div class="carousel-caption">
+                                  <h3>Caption 1</h3>
+                                  <p>Kegiatan Para Ibu</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
                   </div> 
-                  <div class="col col-sm-4">
-                    <a href="#"><img src="//placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
-                    <div class="text-muted"><small>Aug 15 / John Pierce</small></div>
-                    <p>
-                    Web design has come a long way since 1999.
-                    </p>
-                    <hr>
-                    <a href="#"><img src="//placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
-                    <div class="text-muted"><small>Aug 15 / Wilson Traiker</small></div>
-                    <p>
-                    The "flat" look was a big trend this year.
-                    </p>
-                  </div>   
+                     
                 </div>
                 
                   <hr>
-                  
-                  "Mobile first" and "unobtrusive JavaScript" (AKA: "progressive enhancement") are strategies for when a new site design is being considered. These are related concepts that predated RWD: browsers of basic mobile phones do not understand JavaScript or media queries, so the recommended practice is to create a basic web site then enhance it for smart phones and PCs—rather than try "graceful degradation" to make a complex, image-heavy site work on the most basic mobile phones.
-                  <br><br>
-                  Media Queries is a CSS3 module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone vs. high definition screen). It became a W3C recommended standard in June 2012.[1] and is a cornerstone technology of Responsive Web Design.
-                  
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   <hr>
                   
                   <div class="well text-center"> 
-                    <h1>Centered Text</h1>
-                    This was a 2.x challenge that seems a little easier in 3.
-                    <br><br>
+                    <h1>Sang Raja Abadi Menyatakan Kemuliaannya</h1>
+                    
                     <div style="font-size:70pt">
                       <i class="glyphicon glyphicon-4x glyphicon-camera"></i>
                       <i class="glyphicon glyphicon-4x glyphicon-camera"></i>
@@ -248,10 +271,9 @@
                   
                   <hr>
                   
-                  <h2>CSS3</h2>
-                  <img src="//placehold.it/150x100/EEEEEE" class="img-responsive pull-right">
-                  To understand the RWD approach, you must first understand CSS - the basis of responsive design. CSS enables the developer to use percentage-based (AKA fluid or proportion-based) grids, CSS3 media queries. The web site then adapts to multiple devices (desktop, laptop, tablet, smartphone) and display conditions such as browser size and screen resolution.
-  
+                  <h2>Sample Info</h2>
+                  <img src="http://placehold.it/150x100/EEEEEE" class="img-responsive pull-right">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   <br><br>
                   <button class="btn btn-default">More</button>
                   
@@ -259,11 +281,11 @@
                   
                    <div class="row">
                     <div class="col-md-6">
-                      <img src="/assets/example/bg_smartphones.jpg" class="img-responsive">
+                      <img src="<?php echo base_url() ;?>public/img/uploads/63993_786773721388907_4086578249005417420_n.jpg" class="img-responsive">
                       
                     </div> 
                     <div class="col-md-6">
-                      <h1>There is still a lot to be said about the Responsive Web.</h1>
+                      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h1>
                     </div>   
                   </div>
                   
@@ -284,21 +306,15 @@
   
                   <hr>
                   
-                  <h2>Responsive Images</h2>
-                  The sizing "grid" is not the only aspect of responsive design. Making images and media object scale correctly is another consideration for responsive developers.
-                  <span class="hidden-sm">Go ahead and shrink your browser's width to see how the HTML elements and images respond as the width of the viewport changes.</span>
-                                
-                  <h1><a href="#"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a></h1>
+                  <h2 class="info">Sabda Bina Umat</h2>
+                  
                 
                   <hr>
-                  
-                  Bootstrap 3 is the latest "Mobile-first" release of the Bootstrap framework that offers a starter foundation for Web designers and developers.
-                  Bootstrap consists of a CSS and JavaScript library. To use Bootstrap, you simply include (reference) in the HTML of your Web page. There is also a CDN for 
-                  Bootstrap that serves pages faster.
-                  
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                 
                   <hr>
                   
-                  This theme was made at Bootply. Bootply is a HTML, JavaScript and CSS editor app built just for Bootstrap. Bootply enables developers to easily apply the Bootstrap Framework to their projects using a beautiful hand-coding interface. The browser-based Bootply editor lets developers select and paste Bootstrap friendly code snippets. Bootply can be used to test, manage and share any Bootstrap code, from small snippets to entire Bootstrap-ready themes. Find it at http://bootply.com
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                   
                   <hr>
                   
@@ -333,7 +349,7 @@
                   </div>
                   
                   <hr>
-                  <h4><a href="http://bootply.com/69913">Edit on Bootply</a></h4>
+                    <h4><a href="#"></a></h4>
                   <hr>
              	
                   </div><!--/panel-body-->
