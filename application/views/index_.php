@@ -290,18 +290,11 @@
                   </div>
                   
                   <hr>
-                
-                  <h2>Responsive Text</h2>
-                  Have you ever seen large text blocks overflow their container, or get cut-off? One way to handle this is to ensure
-                  the text content wraps inside the container. But the more "responsive" way is to scale font-sizes accordingly as the size of the viewing area
-                  (viewport) changes. Creators of <a href="http://fittextjs.com/">FitText</a> have mastered this in the form of a plugin.
-                
-                  <hr>
-                  
+
                   
                   <div class="well"> 
-                    <h1>Well..</h1>
-                    Does anyone know why <a href="#">@mdo</a> or <a href="#">@fat</a> would name this element a "well"?
+                    <h1>Lukas 1:37</h1>
+                    Sebab Bagi Allah tidak ada yang mustahil<a href="#"> Ayat Renungan Harian</a>
                   </div>
   
                   <hr>
